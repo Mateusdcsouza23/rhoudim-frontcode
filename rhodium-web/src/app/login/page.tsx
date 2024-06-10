@@ -25,10 +25,10 @@ const InputField: React.FC<InputFieldProps> = ({ id, label, type, placeholder })
 
   const MyComponent: React.FC = () => {
     return (
-        <div className="flex flex-col bg-white m-0 p-0 pb-6 max-md:px-5">
+        <div className="flex w-full flex-col h-auto bg-white m-0 p-0 pb-6">
             <header className="w-full flex  text-1xl font-bold text-white">
                 <nav className="flex justify-between items-center w-3/5">
-                    <Link href="/app" className="flex bg-blue-500 rounded-3xl px-5 py-2 ml-6 gap-4">
+                    <Link href="http://localhost:3000/" className="flex bg-blue-500 rounded-3xl px-5 py-2 ml-6 gap-4">
                       <Image src="/Arrow 1.png" width={40} height={5} alt="flecha"></Image>
                       Voltar
                     </Link>
